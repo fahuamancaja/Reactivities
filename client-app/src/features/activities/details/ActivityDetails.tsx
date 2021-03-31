@@ -18,7 +18,7 @@ export default function ActivityDetails({activity, cancelSelectActivity, openFor
                 <span>{activity.date}</span>
             </Card.Meta>
             <Card.Description>
-                Matthew is a musician living in Nashville.
+                {activity.description}
             </Card.Description>
             </Card.Content>
             <Card.Content extra>
